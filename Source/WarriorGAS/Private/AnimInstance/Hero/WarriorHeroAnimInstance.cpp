@@ -22,7 +22,7 @@ void UWarriorHeroAnimInstance::NativeThreadSafeUpdateAnimation(float DeltaSecond
 	if (bHasAcceleration)
 	{
 		IdleElpasedTime = 0.f;
-		bShouldEnterRelaxState = true;
+		bShouldEnterRelaxState = false;
 	}
 	else
 	{
